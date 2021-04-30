@@ -28,5 +28,5 @@ func (MultiTenantMixin) Fields() []ent.Field {
 }
 
 func (MultiTenantMixin) Policy() ent.Policy {
-	return MultiTenancyPolicy{}
+	return MultiTenancyPrivacy{}
 }
